@@ -1,0 +1,51 @@
+<h2>Edit User Profile</h2>
+
+<div class="input-prepend">
+    <span class="add-on">ID</span>
+    <input type="messageText" class="userID input-mini" value="{{id}}" disabled>
+    <span class="add-on">Since</span>
+    <input type="messageText" class="dateOfIssue input-small"
+           value="{{dateOfIssue.dayOfMonth}}/{{dateOfIssue.monthOfYear}}/{{dateOfIssue.year}}" disabled>
+</div>
+<!--UserName-->
+<div class="input-prepend">
+    <span class="add-on">UserName</span>
+    <input type="messageText" class="username input-xlarge" value="{{username}}" disabled>
+</div>
+<!-- E-mail -->
+<div class="input-prepend">
+    <span class="add-on">E-Mail</span>
+    <input type="email" class="email input-xlarge" value="{{email}}" placeholder="Email" required="required">
+</div>
+<!-- First Name -->
+<div class="input-prepend">
+    <span class="add-on">FirstName</span>
+    <input type="messageText" class="firstName input-xlarge" value="{{firstName}}" placeholder="First name">
+</div>
+<!-- Last Name -->
+<div class="input-prepend">
+    <span class="add-on">LastName</span>
+    <input type="messageText" class="lastName input-xlarge" value="{{lastName}}" placeholder="Last name">
+</div>
+<!-- Membership Type-->
+<div class="input-prepend">
+    <span class="add-on">Membership</span>
+    <select class="membership span2">
+        <option> {{membership}}</option>
+        <option>resident</option>
+        <option>member</option>
+    </select>
+</div>
+
+<!-- Password-->
+<div class="input-prepend">
+    <span class="add-on">Password</span>
+    <input type="text" class="password input-xlarge" name="password">
+</div>
+<!-- Password confirm -->
+<div class="input-prepend">
+    <span class="add-on">Password (Confirm)</span>
+    <input type="password" class="password_confirm input-xlarge" name="password_confirm" >
+</div>
+
+<button class="btn save">Update</button>

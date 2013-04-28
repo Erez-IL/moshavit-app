@@ -1,0 +1,26 @@
+<h2>Message View</h2>
+
+<div class="input-prepend">
+    <span class="add-on">ID</span>
+    <input type="messageText" class="userID input-mini" value="{{id}}" disabled>
+    <span class="add-on">Since</span>
+    <input type="messageText" class="dateOfIssue input-small"
+           value="{{dateOfIssue.dayOfMonth}}/{{dateOfIssue.monthOfYear}}/{{dateOfIssue.year}}" disabled>
+</div>
+<!--subject-->
+<div class="input-prepend">
+    <span class="add-on">subject</span>
+    <input type="messageText" class="subject input-xlarge" value="{{subject}}" disabled>
+</div>
+<!-- author.username -->
+<div class="input-prepend">
+    <span class="add-on">author.username</span>
+    <input type="messageText" class="author.username input-xlarge" value="{{author.username}}" placeholder="author.username"
+           required="required" disabled>
+</div>
+<!--message-->
+<div class="input-prepend">
+    <span class="add-on">Message</span>
+    <textarea name="message" class="messageText input-xlarge" placeholder="Enter Your Message Here ..."
+              disabled>{{messageText}}</textarea>
+</div>

@@ -1,0 +1,37 @@
+{{!  User Table List}}
+{{#if this}}
+    <table id="UserTableList" class="users table table-hover">
+        <thead>
+        <th class="header">ID</th>
+        <th class="header">Username</th>
+        <th class="header">First Name</th>
+        <th class="header">Last Name</th>
+				<th class="header">E-Mail</th>
+        <th class="header">Membership</th>
+				<th class="header">Date Of Issue</th>
+				<th class="header">Date Of Last Update</th>
+        </thead>
+        <tbody>
+					{{#each this}}
+
+          <tr>
+              <td class="ID">{{id}}</td>
+              <td>{{username}}</td>
+              <td>{{firstName}}</td>
+              <td>{{lastName}}</td>
+              <td>{{email}}</td>
+              <td>{{membership}}</td>
+              <td>{{dateOfIssue.dayOfMonth}}/{{dateOfIssue.monthOfYear}}/{{dateOfIssue.year}}</td>
+              <td>{{#if dateOfLastUpdate}}{{dateOfLastUpdate.dayOfMonth}}/{{dateOfLastUpdate.monthOfYear}}/{{dateOfLastUpdate.year}}{{/if}}</td>
+          </tr>
+					{{/each}}
+        </tbody>
+    </table>
+{{else}}
+		<table id="UserTableList" class="users table table-hover ">
+        <thead>
+        	<th>No users found.</th>
+				</thead>
+				<tbody></tbody>
+		</table>
+{{/if}}
