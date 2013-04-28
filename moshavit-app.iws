@@ -1,58 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.4-rc-1/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.4-rc-1/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/AppLayout.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/HomeView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/MessageView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/MessagesView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/UserView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/UsersView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/appLayout.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/application.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/styles/application.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/backbone.epoxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/backbone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/backbone.marionette.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/styles/bootstrap-body.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/styles/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.4-rc-1/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/1.4-rc-1/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/collection.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/console-helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/home.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/initialize.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/message.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/messageBoard.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/messages.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/messagesBoard.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/model.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moshavit-app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moshavit-app.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moshavit-app.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/router.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/scripts/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/updateProfile.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/updateProfileView.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/user.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/users.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/users.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/view_helper.coffee" />
+    <list default="true" id="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" name="Default" comment="Moshavit App with Backbone.Marionette">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moshavit-app.iws" afterPath="$PROJECT_DIR$/moshavit-app.iws" />
     </list>
     <ignored path="moshavit-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +38,7 @@
     <file path="/MessageView.coffee" changelist="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" time="1367058484256" ignored="false" />
     <file path="/messageBoard.hbs" changelist="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" time="1367059259142" ignored="false" />
     <file path="/messagesBoard.hbs" changelist="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" time="1367082051468" ignored="false" />
-    <file path="/Dummy.txt" changelist="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" time="1367180747765" ignored="false" />
+    <file path="/Dummy.txt" changelist="f88e4c22-3cce-4d51-9a56-bde7cbae18d5" time="1367181850424" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,28 +97,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="router.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="router.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/lib/router.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="11" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
+            <state line="44" column="11" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.057142857">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.057142857">
+            <state line="9" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -284,9 +225,10 @@
     <option name="jreName" value="1.6" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="-5" />
+    <option name="width" value="1368" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -339,7 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -354,8 +296,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -472,7 +414,11 @@
       <created>1367180749981</created>
       <updated>1367180749981</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Moshavit App with Backbone.Marionette">
+      <created>1367181082391</created>
+      <updated>1367181082391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -496,10 +442,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-1" y="-5" width="1368" height="774" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.48784193" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.48784193" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -508,10 +454,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5068389" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5098784" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.49088147" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.48480242" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SimpleHttpClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.4969605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.4969605" order="6" side_tool="false" content_ui="tabs" />
@@ -525,6 +470,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -589,11 +535,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/HomeView.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/initialize.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="2" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" />
@@ -700,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/router.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/user.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
@@ -714,16 +648,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/config.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.coffee">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.057142857">
+        <state line="1" column="6" selection-start="19" selection-end="19" vertical-scroll-proportion="0.057142857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moshavit-app.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="14" selection-start="6576" selection-end="6576" vertical-scroll-proportion="0.8817204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/router.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="11" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.057142857">
           <folding />
         </state>
       </provider>
