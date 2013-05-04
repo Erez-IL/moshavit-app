@@ -31,11 +31,11 @@ module.exports = class Router extends Backbone.Router
     application.layout.content.show(view)
 
   messagesViewDefault: =>
-    messages = new Message
+    messages = new Messages
     messages.fetch
       success: =>
         view = new MessagesView
-          model: messages
+          collection: messages
         application.layout.content.show(view)
 
   userViewDefault: =>
