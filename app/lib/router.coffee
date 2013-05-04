@@ -3,11 +3,13 @@ HomeView = require('views/HomeView')
 UserView = require('views/UserView')
 UsersView = require('views/UsersView')
 MessageView = require('views/MessageView')
+NewMessageView = require('views/NewMessageView')
 MessagesView = require('views/MessagesView')
 updateProfileView = require('views/updateProfileView')
 User = require('models/user')
 Users = require('models/users')
 Message = require('models/message')
+NewMessage = require('models/newMessage')
 Messages = require('models/messages')
 
 module.exports = class Router extends Backbone.Router
@@ -15,6 +17,7 @@ module.exports = class Router extends Backbone.Router
   routes:
     '': 'home'
     'messageBoard': 'messageViewDefault'
+    'newmessageBoard': 'newMessageViewDefault'
     'messagesBoard': 'messagesViewDefault'
     'user': 'userViewDefault'
     'users': 'usersViewDefault'
@@ -28,6 +31,10 @@ module.exports = class Router extends Backbone.Router
 
   messageViewDefault: =>
     view = new MessageView()
+    application.layout.content.show(view)
+
+  newMessageViewDefault: =>
+    view = new NewMessageView()
     application.layout.content.show(view)
 
   messagesViewDefault: =>
