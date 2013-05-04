@@ -1,3 +1,5 @@
+User = require('models/user')
+
 module.exports = class NewMessageView extends Backbone.Marionette.ItemView
   template: require('./templates/newMessageBoard')
 
@@ -5,8 +7,16 @@ module.exports = class NewMessageView extends Backbone.Marionette.ItemView
     "click .save": 'saveNewMessage'
 
   saveNewMessage: =>
-    console.log @model
-    @model.set "author.username", @$("author.username").val()
-    @model.set "subject", @$("subject").val()
-    @model.set "messageText", @$("subject").val()
-    @model.save()
+    userId = @$(".authorId").val()
+    user = new User
+      id: userId
+    user.fetch
+      success: =>
+      @model.set
+        author: user
+        subject: @$(".subject").val()
+        messageText: @$(".messageText").val()
+
+      console.log @model
+      @model.save()
+
