@@ -34,7 +34,8 @@ module.exports = class Router extends Backbone.Router
     application.layout.content.show(view)
 
   newMessageViewDefault: =>
-    view = new NewMessageView()
+    view = new NewMessageView
+      model: new NewMessage()
     application.layout.content.show(view)
 
   messagesViewDefault: =>
