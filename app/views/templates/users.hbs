@@ -21,7 +21,7 @@
               <td>{{lastName}}</td>
               <td>{{email}}</td>
               <td>{{membership}}</td>
-              <td>{{date dateOfIssue}}</td>
+              <td>{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}</td>
               <td>{{#if dateOfLastUpdate}}{{date dateOfLastUpdate}}{{/if}}</td>
           </tr>
 					{{/each}}

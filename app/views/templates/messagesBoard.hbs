@@ -46,7 +46,8 @@
 			    <h4>
 						{{subject}}
 			    </h4>
-				{{dateOfIssue.dayOfMonth}}/{{dateOfIssue.monthOfYear}}/{{dateOfIssue.year}}
+				<h6>{{id}}</h6>
+				{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}
 
 			    <p>
 						{{messageText}}

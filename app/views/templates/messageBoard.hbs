@@ -5,7 +5,7 @@
     <input type="messageText" class="userID input-mini" value="{{id}}" disabled>
     <span class="add-on">Since</span>
     <input type="messageText" class="dateOfIssue input-small"
-           value="{{dateOfIssue.dayOfMonth}}/{{dateOfIssue.monthOfYear}}/{{dateOfIssue.year}}" disabled>
+           value="{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}" disabled>
 </div>
 <!--subject-->
 <div class="input-prepend">
