@@ -1,20 +1,21 @@
 <h2>Message View</h2>
-
-<!--subject-->
-<div class="input-prepend">
-    <span class="add-on">subject</span>
-    <input type="messageText" class="subject input-xlarge" value="" >
+<div class="well span12">
+    <!--subject-->
+    <div class="input-prepend">
+        <span class="add-on">subject</span>
+        <input type="text" class="subject" value="">
+    </div>
+    <!-- author.username -->
+    <div class="input-prepend">
+        <span class="add-on">author.id</span>
+        <input type="text" class="authorId" value="" placeholder="author.id"
+               required="required">
+    </div>
+    <!--message-->
+    <div class="input-prepend">
+        <span class="add-on">Message</span>
+        <textarea type="text" name="message" class="messageText" placeholder="Enter Your Message Here ..."
+                ></textarea>
+    </div>
+    <button class="btn save">Save</button>
 </div>
-<!-- author.username -->
-<div class="input-prepend">
-    <span class="add-on">author.id</span>
-    <input type="messageText" class="authorId input-xlarge" value="" placeholder="author.id"
-           required="required" >
-</div>
-<!--message-->
-<div class="input-prepend">
-    <span class="add-on">Message</span>
-    <textarea name="message" class="messageText input-xlarge" placeholder="Enter Your Message Here ..."
-              ></textarea>
-</div>
-<button class="btn save">Save</button>

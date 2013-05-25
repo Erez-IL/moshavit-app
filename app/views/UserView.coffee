@@ -19,5 +19,5 @@ module.exports = class UserView extends Backbone.Marionette.ItemView
     @model.set 'firstName', @$("input.firstName").val()
 
   save: =>
-    @model.set "firstName", @$("input.firstName").val()
+#    @model.set "firstName", @$("input.firstName").val()
     @model.save()

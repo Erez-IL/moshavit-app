@@ -1,6 +1,8 @@
 application = require('application')
 HomeView = require('views/HomeView')
+LoginView = require('views/LoginView')
 UserView = require('views/UserView')
+NewUserView = require('views/NewUserView')
 UsersView = require('views/UsersView')
 MessageView = require('views/MessageView')
 NewMessageView = require('views/NewMessageView')
@@ -11,6 +13,8 @@ Users = require('models/users')
 Message = require('models/message')
 NewMessage = require('models/newMessage')
 Messages = require('models/messages')
+Login = require('models/login')
+NewUser = require('models/newUser')
 
 module.exports = class Router extends Backbone.Router
 
@@ -24,6 +28,8 @@ module.exports = class Router extends Backbone.Router
     'user/:id': 'userView'
     'updateProfile/:id': 'updateProfile'
     'messageBoard/:id': 'messageViewById'
+    'login': 'loginView'
+    'newuser': 'newUserView'
 
   home: =>
     view = new HomeView()
@@ -31,6 +37,15 @@ module.exports = class Router extends Backbone.Router
 
   messageViewDefault: =>
     view = new MessageView()
+    application.layout.content.show(view)
+
+  newUserView: =>
+    view = new NewUserView()
+    application.layout.content.show(view)
+
+  loginView: =>
+    view= new LoginView
+      model: new Login()
     application.layout.content.show(view)
 
   newMessageViewDefault: =>
@@ -51,11 +66,11 @@ module.exports = class Router extends Backbone.Router
     application.layout.content.show(view)
 
   usersViewDefault: =>
-    users = new User
+    users = new Users
     users.fetch
       success: =>
         view = new UsersView
-          model: users
+          collection: users
         application.layout.content.show(view)
 
   messageViewById: (id)=>

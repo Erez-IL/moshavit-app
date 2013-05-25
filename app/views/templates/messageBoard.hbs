@@ -1,26 +1,30 @@
-<h2>Message View</h2>
-
-<div class="input-prepend">
-    <span class="add-on">ID</span>
-    <input type="messageText" class="userID input-mini" value="{{id}}" disabled>
-    <span class="add-on">Since</span>
-    <input type="messageText" class="dateOfIssue input-small"
-           value="{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}" disabled>
-</div>
-<!--subject-->
-<div class="input-prepend">
-    <span class="add-on">subject</span>
-    <input type="messageText" class="subject input-xlarge" value="{{subject}}" disabled>
-</div>
-<!-- author.username -->
-<div class="input-prepend">
-    <span class="add-on">author.username</span>
-    <input type="messageText" class="author.username input-xlarge" value="{{author.username}}" placeholder="author.username"
-           required="required" disabled>
-</div>
-<!--message-->
-<div class="input-prepend">
-    <span class="add-on">Message</span>
-    <textarea name="message" class="messageText input-xlarge" placeholder="Enter Your Message Here ..."
-              disabled>{{messageText}}</textarea>
+<div class="well span12" onclick="window.location='#messageBoard/{{id}}'">
+    <div class="input-prepend">
+        <span class="add-on">מספר הודעה</span>
+        <input type="text" class="userID" value="{{id}}" disabled>
+    </div>
+    <div class="input-prepend">
+        <span class="add-on">תאריך יצירה</span>
+        <input type="text" class="dateOfIssue "
+               value="{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}" disabled>
+    </div>
+    <!--subject-->
+    <div class="input-prepend">
+        <span class="add-on">נושא</span>
+        <input type="text" class="subject " value="{{subject}}" readonly="true"
+               ondblclick="this.readOnly=false">
+    </div>
+    <!-- author.username -->
+    <div class="input-prepend">
+        <span class="add-on">מחבר ההודעה</span>
+        <input type="text" class="author.username " value="{{author.username}}" placeholder="author.username"
+               required="required" disabled>
+    </div>
+    <!--message-->
+    <div class="input-prepend">
+        <span class="add-on">הודעה</span>
+        <textarea type ="text" name="message" class="messageText" placeholder="Enter Your Message Here ..."
+                  disabled>{{messageText}}</textarea>
+    </div>
+    <button class="btn save">שמור</button>
 </div>

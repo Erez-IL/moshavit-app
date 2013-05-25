@@ -1,0 +1,16 @@
+<div class="well span12">
+    <div class="input-prepend">
+        <span class="add-on">שם משתמש</span>
+        <input id="username" type="text" class="username" value="">
+    </div>
+    <div class="input-prepend">
+        <span class="add-on">סיסמה</span>
+        <input id="password" type="password" class="password" value="">
+    </div>
+    <div style="text-align: center">
+        <button class="btn logoutButton" onclick="$.get( '/api/users/logout')">Logout</button>
+        <button class="btn loginButton">Login</button>
+        <br><br>
+        <a class=" forgetPasswordButton">Forgot my password</a><!--todo forgot my password-->
+    </div>
+</div>
