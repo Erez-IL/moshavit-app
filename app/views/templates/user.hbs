@@ -1,37 +1,37 @@
 <!--<h2>User Profile</h2>-->
 <div class="well span12" onclick="window.location='#updateProfile/{{id}}'">
     <div class="input-prepend">
-        <span class="add-on">ID</span>
+        <label for="userID">ID</label>
         <input type="text" class="userID" value="{{id}}" disabled>
     </div>
     <div class="input-prepend">
-        <span class="add-on">Since</span>
+        <label for="dateOfIssue">Since</label>
         <input type="text" class="dateOfIssue"
                value="{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}" disabled>
     </div>
     <!--UserName-->
     <div class="input-prepend">
-        <span class="add-on">UserName</span>
+        <label for="username">UserName</label>
         <input type="text" class="username" value="{{username}}" disabled>
     </div>
     <!-- E-mail -->
     <div class="input-prepend">
-        <span class="add-on">E-Mail</span>
+        <label for="email">E-Mail</label>
         <input type="email" class="email" value="{{email}}" placeholder="Email" required="required" disabled>
     </div>
     <!-- First Name -->
     <div class="input-prepend">
-        <span class="add-on">FirstName</span>
+        <label for="firstName">FirstName</label>
         <input type="text" class="firstName" value="{{firstName}}" placeholder="First name" disabled>
     </div>
     <!-- Last Name -->
     <div class="input-prepend">
-        <span class="add-on">LastName</span>
+        <label for="lastName">LastName</label>
         <input type="text" class="lastName" value="{{lastName}}" placeholder="Last name" disabled>
     </div>
     <!-- Membership Type-->
     <div class="input-prepend">
-        <span class="add-on">Membership</span>
+        <label for="membership">Membership</label>
         <input type="text" class="membership" value="{{membership}}" placeholder="Membership" disabled>
     </div>
 </div>

@@ -1,28 +1,29 @@
-<div class="well span12" onclick="window.location='#messageBoard/{{id}}'">
+<div class="well span12" onclick="window.location='#messageBoard/{{id}}'" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <div class="input-prepend">
-        <span class="add-on">מספר הודעה</span>
-        <input type="text" class="userID" value="{{id}}" disabled>
+        <label for="messageId">מספר הודעה</label>
+        <input type="text" class="messageId" value="{{id}}" disabled>
     </div>
     <div class="input-prepend">
-        <span class="add-on">תאריך יצירה</span>
+        <label for="dateOfIssue">תאריך יצירה</label>
         <input type="text" class="dateOfIssue "
                value="{{#if dateOfIssue}}{{date dateOfIssue}}{{/if}}" disabled>
     </div>
     <!--subject-->
     <div class="input-prepend">
-        <span class="add-on">נושא</span>
+        <label for="Subject">נושא</label>
         <input type="text" class="subject " value="{{subject}}" readonly="true"
                ondblclick="this.readOnly=false">
     </div>
     <!-- author.username -->
     <div class="input-prepend">
-        <span class="add-on">מחבר ההודעה</span>
+        <label for="author.username ">מחבר ההודעה</label>
         <input type="text" class="author.username " value="{{author.username}}" placeholder="author.username"
                required="required" disabled>
     </div>
     <!--message-->
     <div class="input-prepend">
-        <span class="add-on">הודעה</span>
+        <label for="messageText">הודעה</label>
         <textarea type ="text" name="message" class="messageText" placeholder="Enter Your Message Here ..."
                   disabled>{{messageText}}</textarea>
     </div>
