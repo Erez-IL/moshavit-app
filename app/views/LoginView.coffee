@@ -22,13 +22,18 @@ module.exports = class LoginView extends Backbone.Marionette.ItemView
         password: $("#password").val()
       },
       success: (data)=>
-        console.log("Logged in as " + $("#username").val() + " successfully");
-        document.getElementById('sessionUsername').innerHTML=$("#username").val();
+        console.log("Logged in as " + $("#username").val() + " successfully")
+        document.getElementById('sessionUsername').innerHTML=$("#username").val()
+#        document.getElementById('invalidPassword').innerHTML = " "
+        alert("wellcom "+$("#username").val())
+        document.location.href="/#"
       ,
       error: ( jqXHR, textStatus, errorThrown) =>
         console.log("Failed logging in " + $("#username").val() + ": " +  errorThrown)
-        document.getElementById('sessionUsername').innerHTML = "Guest";
-
+        document.getElementById('sessionUsername').innerHTML = "Guest"
+#        document.getElementById('invalidPassword').innerHTML = "Invalid Password OR Username"
+        alert("Invalid Password OR Username")
+        $("#password").val("")
     })
 
 
