@@ -1,22 +1,40 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div id="appNavBar"class="container">
-            <a style="float: left" href="#" onclick="javascript:navigator.app.clearHistory();"><img src="img/logo.png"
-                                                 style="max-height: 48px; max-width: 48px;"></a>
-
-            <!-- todo Backbone.history.start() if pressed-->
-            <!--<a class="btn " href="#user">UserView</a>-->
-            <!--<a class="btn " href="#users">UsersView</a>-->
-            <!--<a class="btn " href="#messageBoard">messageView</a>-->
-            <!--<a class="btn " href="#messagesBoard">messagesView</a>-->
-            <a style="cursor:pointer; float: right" onclick="javascript:navigator.app.exitApp(); "><img
+        <div id="appNavBar" class="container">
+            <a style="float: left" class="visible-phone" href="#" onclick="javascript:navigator.app.clearHistory();"><img
+                    src="img/logo.png"
+                    style="max-height: 48px; max-width: 48px;"></a>
+            <a style="cursor:pointer; float: right" class="visible-phone" onclick="javascript:navigator.app.exitApp(); "><img
                     src="http://cdn1.iconfinder.com/data/icons/gis/quit.png" style="height: 48px; width: 48px;"></a>
-						<p style="text-align: center">שלום : <b id='sessionUsername'></b> </p>
+
+            <p style="text-align: center">שלום : אורח<b id='sessionUsername'></b></p>
+
+            <div class="visible-desktop ">
+                <ul class="nav nav-tab" id="desktopMenu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#user">User</a></li>
+                    <li><a href="#users">Users</a></li>
+                    <li><a href="#messageBoard">Message</a></li>
+                    <li><a href="#messagesBoard">Messages</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#survey">Survey</a></li>
+                    <li><a href="#calender">Calender</a></li>
+                    <li><a href="#newuser">NewUser</a></li>
+                    <li><a href="#newmessageBoard">NewMessage</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+                <script>
+                    $('#desktopMenu li').click(function () {
+                        $('#desktopMenu .active').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                </script>
+            </div>
         </div>
     </div>
 </div>
-
+<br class="visible-desktop ">
 <div class="row-fluid">
-        <div id="content" class="container"></div>
+    <div id="content" class="container"></div>
 </div>
 
